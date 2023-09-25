@@ -5,7 +5,8 @@ const router = express.Router();
 router.get("/", getCustomers);
 router.get("/:id", getCustomer);
 router.post("/", createCustomer);
-router.delete("/:id", deleteCustomer);
+// for time being we should not practice this route
+// router.delete("/:id", deleteCustomer);
 
 // Todo : Update customer
 
